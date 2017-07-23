@@ -1,0 +1,104 @@
+#container {
+    font-size: 45px;
+}
+
+#container > div {
+    background-color: rgba(0, 255, 255, 0.6);
+    margin-bottom: 15px;
+    height: 3em;
+}
+
+#pixele {
+    width: 400px;
+}
+
+/* Zmiana czcionki */
+
+#ht { font-size: 25px; }
+#ht p { font-size: 3em; }
+
+/* Zmiana wartości w EX */
+
+#ex {
+    width: 70ex;
+    height: 180px;
+    font-size: 1ex;
+}  
+
+/* wyliczanie w REM */
+
+#rem {
+    width: 200px;
+}
+#rem p {
+    font-size: 2rem;
+}
+
+/* wylicznie w % */
+
+#proc {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: aquamarine;
+}
+
+.prc {
+    position: absolute;
+}
+
+.a1 {
+    width: 50%;
+    height: 50%;
+    right: 0;
+    background-color: antiquewhite;
+}
+
+.a2 {
+    width: 30%;
+    height: 30%;
+    bottom: 0;
+    background-color: blue;
+}
+
+
+/* wylicznie w VW (viewport) */
+
+#vw {
+    width: 50vw;
+    height: 50vw;
+    position: relative;
+    background-color: yellow;
+}
+
+.vw1 {
+    position: absolute;
+}
+
+.v1 {
+    width: 20vw;
+    height: 20vw;
+    right: 0;
+    background-color: bisque;
+}
+
+.v2 {
+    width: 40vw;
+    height: 40vw;
+    bottom: 10px;
+    background-color: azure;
+}
+
+/* wylicznie vw min */
+
+#vmin {
+    width: 60vmin;
+    background-color: yellowgreen;
+}
+
+/* wylicznie vw max */
+
+#vmax {
+    width: 60vmax;
+    background-color: greenyellow;
+}
